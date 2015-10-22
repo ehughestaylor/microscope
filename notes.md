@@ -45,6 +45,9 @@ It also means you could very well put all your files in the same directory, or e
 
 
 #The Value of "this"
-
-
+- JavaScript magic happening. 
+  - The {{#each}} block helper not only iterates over our array, it also **sets the value of 'this' inside the block to the iterated object **
+  -this.url can now return the current posts' URL.
+  -the 'a' anchor element has a special hostname property to get back the link's domain name without the rest of the URL. 
+  -
 
