@@ -44,5 +44,7 @@ It also means you could very well put all your files in the same directory, or e
 - To keep things simple we will adpot the conventrion of naming the mangaer after the template except with a .js extension. 
 
 
+#The Value of "this"
+
 
 
