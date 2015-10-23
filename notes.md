@@ -49,5 +49,14 @@ It also means you could very well put all your files in the same directory, or e
   - The {{#each}} block helper not only iterates over our array, it also **sets the value of 'this' inside the block to the iterated object **
   -this.url can now return the current posts' URL.
   -the 'a' anchor element has a special hostname property to get back the link's domain name without the rest of the URL. 
-  -
+
+##Find and Fetch 
+  - In meteor find() returns a cursor, which is a reactive data source.  When we want to log its contents, we can then use fetch() on that cursor to transform it into an array. 
+
+  -Within an app Meteor is smart enough to know how to iterate over cursors without having to explicityly convert them into arrays first.  This is why you wont see fetch() that often in an actual Meteor app. 
+
+#Connecting Collections: Publications and Subscriptions
+
+- So far we have had the autopublish package enabled which is not inteded for production applications.  As its name indicates this package simply says taht each collection should be shared in its entirety to each connected client.  This isnt what we want.
+
 
