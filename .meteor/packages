@@ -18,3 +18,12 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 insecure                # Allow all DB writes from clients (for prototyping)
 bootstrap
+iron:router
+iron:layout
+meteorhacks:npm
+meteorhacks:kadira
+meteorhacks:fast-render
+
+
+
+npm-container

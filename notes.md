@@ -60,3 +60,16 @@ It also means you could very well put all your files in the same directory, or e
 - So far we have had the autopublish package enabled which is not inteded for production applications.  As its name indicates this package simply says taht each collection should be shared in its entirety to each connected client.  This isnt what we want.
 
 
+#Publications and Subscriptions
+- Hard to wrap your head around. 
+
+-This has led to a lot of misunderstandings, one being that Meteor is not secure. 
+
+#The /lib folder
+- Anything you put inside the lib folder is guranteed to load first before anything else. this makes it a great place to put any helper code that needs to be available at all times
+
+#Named Routes
+
+
+
+
